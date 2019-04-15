@@ -171,10 +171,11 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0 0 40px;
+  margin: 0 0 60px;
+  align-items: baseline;
 }
 header h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 header nav {
   width: 45%;
@@ -186,6 +187,25 @@ header nav a {
   color: black;
   font-size: 2rem;
 }
+footer {
+  padding: 40px 0;
+  background-color: #000000d9;
+}
+footer .flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+}
+footer .icons {
+  display: flex;
+  font-size: 3rem;
+  width: 10%;
+  justify-content: space-between;
+}
 .top-section {
   background-color: #f6f6f8;
   padding: 40px 0;
@@ -195,7 +215,7 @@ header nav a {
   justify-content: space-between;
 }
 .top-section .content-one img {
-  width: 40%;
+  width: 53%;
   height: 40%;
 }
 .top-section .content-one .titleButton {
@@ -214,9 +234,10 @@ header nav a {
   margin-top: 20px;
   width: 200px;
   height: 40px;
-  background-color: aliceblue;
+  background-color: #000000d9;
   border-radius: 20px;
   font-size: 2rem;
+  color: white;
 }
 .content-two {
   background-color: #99a2af6b;
@@ -250,4 +271,18 @@ header nav a {
 }
 .content-three {
   background-color: #f6f6f8;
+  padding: 40px 0;
+}
+.content-three .flex-container {
+  display: flex;
+  align-items: center;
+}
+.content-three .flex-container img {
+  width: 80%;
+}
+.content-three .flex-container .hidden {
+  display: none;
+}
+.content-three .flex-container h2 {
+  font-size: 4.5rem;
 }
