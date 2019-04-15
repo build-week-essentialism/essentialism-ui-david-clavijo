@@ -2,19 +2,38 @@
   background-color: #f6f6f8;
   padding: 40px 0;
 
+  @media @phone {
+    padding: 20px 0 0;
+  }
+
   .content-one {
     display: flex;
     justify-content: space-between;
 
+    @media @phone {
+      flex-direction: column;
+    }
+
     img {
       width: 53%;
       height: 40%;
+
+      @media @phone {
+        width: 100%;
+        display: none;
+      }
     }
 
     .titleButton {
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      @media @phone {
+        background-image: url(../IMAGES/carouselpic3.jpg);
+        background-size: cover;
+        height: 400px;
+      }
 
       h1 {
         margin: 10px 0;
@@ -45,11 +64,19 @@
 
   h2 {
     font-size: 6rem;
+
+    @media @phone {
+      font-size: 3.5rem;
+    }
   }
 
   .flex-container {
     display: flex;
     justify-content: space-between;
+
+    @media @phone {
+      flex-direction: column;
+    }
 
     .title {
       display: flex;
@@ -57,6 +84,12 @@
       align-items: center;
       justify-content: center;
       margin-left: 5%;
+
+      @media @phone {
+        flex-direction: row;
+        margin: 0 0 20px;
+
+      }
     }
 
     .cards {
@@ -64,6 +97,11 @@
       flex-direction: column;
       justify-content: space-between;
       width: 50%;
+
+      @media @phone {
+        width: 100%;
+        padding: 0 2%;
+      }
 
       h3 {
         font-size: 2.4rem;
@@ -80,12 +118,30 @@
   background-color: #f6f6f8;
   padding: 40px 0;
 
+  @media @phone {
+    padding: 0;
+  }
+
   .flex-container {
     display: flex;
     align-items: center;
 
+    @media @phone {
+      flex-direction: column;
+    }
+
+    .carousel {
+      @media @phone {
+        order: 2;
+      }
+    }
+
     img {
       width: 80%;
+
+      @media @phone {
+        width: 100%;
+      }
     }
 
     .hidden {
@@ -94,6 +150,11 @@
 
     h2 {
       font-size: 4.5rem;
+
+      @media @phone {
+        order: 1;
+        display: none;
+      }
     }
   }
 
