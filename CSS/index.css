@@ -359,7 +359,7 @@ footer .icons {
   flex-direction: column;
 }
 .content-three .flex-container .carouselAndButtons .active-button {
-  width: 100px;
+  color: black;
 }
 .content-three .flex-container .carouselAndButtons .buttons {
   display: flex;
@@ -373,19 +373,31 @@ footer .icons {
   width: 34%;
   font-size: 1.6rem;
 }
+.content-three .flex-container .carouselAndButtons .buttons .buttonActive {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+}
 @media (max-width: 868px) {
   .content-three .flex-container .carousel {
     order: 2;
   }
 }
-.content-three .flex-container img {
+.content-three .flex-container .image {
   width: 80%;
   display: none;
 }
 @media (max-width: 868px) {
-  .content-three .flex-container img {
+  .content-three .flex-container .image {
     width: 100%;
   }
+}
+.content-three .flex-container .picActive {
+  display: flex;
+  justify-content: center;
+}
+.content-three .flex-container .activeImage {
+  display: flex;
 }
 .content-three .flex-container h2 {
   font-size: 4.5rem;

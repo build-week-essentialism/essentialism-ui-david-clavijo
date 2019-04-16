@@ -135,7 +135,7 @@
       flex-direction: column;
 
       .active-button {
-        width: 100px;
+        color: black;
       }
 
       .buttons {
@@ -150,6 +150,12 @@
           width: 34%;
           font-size: 1.6rem;
         }
+
+        .buttonActive {
+          display: flex;
+          justify-content: center;
+          width: 600px;
+        }
       }
     }
 
@@ -159,13 +165,22 @@
       }
     }
 
-    img {
+    .image {
       width: 80%;
       display: none;
 
       @media @phone {
         width: 100%;
       }
+    }
+
+    .picActive {
+      display: flex;
+      justify-content: center;
+    }
+
+    .activeImage {
+      display: flex;
     }
 
     h2 {
