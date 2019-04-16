@@ -358,6 +358,9 @@ footer .icons {
   display: flex;
   flex-direction: column;
 }
+.content-three .flex-container .carouselAndButtons .active-button {
+  width: 100px;
+}
 .content-three .flex-container .carouselAndButtons .buttons {
   display: flex;
   justify-content: center;
@@ -377,14 +380,12 @@ footer .icons {
 }
 .content-three .flex-container img {
   width: 80%;
+  display: none;
 }
 @media (max-width: 868px) {
   .content-three .flex-container img {
     width: 100%;
   }
-}
-.content-three .flex-container .hidden {
-  display: none;
 }
 .content-three .flex-container h2 {
   font-size: 4.5rem;
