@@ -141,7 +141,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lilita One', cursive;
 }
 h1 {
   font-size: 4rem;
@@ -153,6 +153,9 @@ h2 {
 h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
+}
+a {
+  font-family: 'Lilita One', cursive;
 }
 p {
   line-height: 1.5;
@@ -203,11 +206,16 @@ header nav a {
 footer {
   padding: 40px 0;
   background-color: #000000d9;
+  margin-top: -1px;
 }
 footer .flex-container {
   display: flex;
   justify-content: space-between;
   padding: 0 10%;
+  align-items: baseline;
+}
+footer .flex-container #contact {
+  font-size: 2.5rem;
 }
 footer a {
   font-size: 3rem;
@@ -270,7 +278,7 @@ footer .icons {
 .top-section .content-one .titleButton a button {
   margin-top: 20px;
   width: 200px;
-  height: 40px;
+  height: 60px;
   background-color: #000000d9;
   border-radius: 20px;
   font-size: 2rem;
@@ -345,6 +353,22 @@ footer .icons {
   .content-three .flex-container {
     flex-direction: column;
   }
+}
+.content-three .flex-container .carouselAndButtons {
+  display: flex;
+  flex-direction: column;
+}
+.content-three .flex-container .carouselAndButtons .buttons {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.content-three .flex-container .carouselAndButtons .buttons .carouselButton {
+  background-color: #000000d9;
+  color: white;
+  height: 40px;
+  width: 34%;
+  font-size: 1.6rem;
 }
 @media (max-width: 868px) {
   .content-three .flex-container .carousel {

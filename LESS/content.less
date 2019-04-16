@@ -46,7 +46,7 @@
         button {
           margin-top: 20px;
           width: 200px;
-          height: 40px;
+          height: 60px;
           background-color: #000000d9;
           border-radius: 20px;
           font-size: 2rem;
@@ -128,6 +128,25 @@
 
     @media @phone {
       flex-direction: column;
+    }
+
+    .carouselAndButtons {
+      display: flex;
+      flex-direction: column;
+
+      .buttons {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+
+        .carouselButton {
+          background-color: #000000d9;
+          color: white;
+          height: 40px;
+          width: 34%;
+          font-size: 1.6rem;
+        }
+      }
     }
 
     .carousel {
