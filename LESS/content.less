@@ -51,6 +51,7 @@
           border-radius: 20px;
           font-size: 2rem;
           color: white;
+          box-shadow: 5px 13px 11px -2px #888888;
         }
       }
     }
@@ -64,9 +65,15 @@
 
   h2 {
     font-size: 6rem;
+    box-shadow: -16px 18px 20px -4px #888888;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
 
     @media @phone {
       font-size: 3.5rem;
+      box-shadow: 23px 18px 20px -4px #888888;
+      padding: 22px 3px;
     }
   }
 
@@ -143,6 +150,10 @@
         justify-content: center;
         width: 80%;
 
+        @media @phone {
+          width: 100%;
+        }
+
         .carouselButton {
           background-color: #000000d9;
           color: white;
@@ -154,7 +165,7 @@
         .buttonActive {
           display: flex;
           justify-content: center;
-          width: 600px;
+          width: 200%;
         }
       }
     }
@@ -185,6 +196,9 @@
 
     h2 {
       font-size: 4.5rem;
+      box-shadow: 16px 18px 20px -4px #888888;
+      background-color: #99a2af6b;
+      padding: 20px;
 
       @media @phone {
         order: 1;

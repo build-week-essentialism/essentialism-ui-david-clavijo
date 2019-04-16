@@ -211,7 +211,7 @@ footer {
 footer .flex-container {
   display: flex;
   justify-content: space-between;
-  padding: 0 10%;
+  padding: 0 5%;
   align-items: baseline;
 }
 footer .flex-container #contact {
@@ -225,7 +225,7 @@ footer a {
 footer .icons {
   display: flex;
   font-size: 3rem;
-  width: 10%;
+  width: 30%;
   justify-content: space-between;
 }
 .top-section {
@@ -283,6 +283,7 @@ footer .icons {
   border-radius: 20px;
   font-size: 2rem;
   color: white;
+  box-shadow: 5px 13px 11px -2px #888888;
 }
 .content-two {
   background-color: #99a2af6b;
@@ -290,10 +291,16 @@ footer .icons {
 }
 .content-two h2 {
   font-size: 6rem;
+  box-shadow: -16px 18px 20px -4px #888888;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 @media (max-width: 868px) {
   .content-two h2 {
     font-size: 3.5rem;
+    box-shadow: 23px 18px 20px -4px #888888;
+    padding: 22px 3px;
   }
 }
 .content-two .flex-container {
@@ -366,6 +373,11 @@ footer .icons {
   justify-content: center;
   width: 80%;
 }
+@media (max-width: 868px) {
+  .content-three .flex-container .carouselAndButtons .buttons {
+    width: 100%;
+  }
+}
 .content-three .flex-container .carouselAndButtons .buttons .carouselButton {
   background-color: #000000d9;
   color: white;
@@ -376,7 +388,7 @@ footer .icons {
 .content-three .flex-container .carouselAndButtons .buttons .buttonActive {
   display: flex;
   justify-content: center;
-  width: 600px;
+  width: 200%;
 }
 @media (max-width: 868px) {
   .content-three .flex-container .carousel {
@@ -401,6 +413,9 @@ footer .icons {
 }
 .content-three .flex-container h2 {
   font-size: 4.5rem;
+  box-shadow: 16px 18px 20px -4px #888888;
+  background-color: #99a2af6b;
+  padding: 20px;
 }
 @media (max-width: 868px) {
   .content-three .flex-container h2 {
