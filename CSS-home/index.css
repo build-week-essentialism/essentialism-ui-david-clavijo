@@ -431,3 +431,54 @@ footer .icons {
     display: none;
   }
 }
+.form-section {
+  /* Overwrite default styles of hr */
+  /* Set a style for the submit button */
+}
+.form-section .container {
+  padding: 125px 0;
+  background-color: white;
+}
+@media (max-width: 868px) {
+  .form-section .container {
+    padding: 10px 2% 0;
+  }
+}
+.form-section label {
+  font-size: 1.6rem;
+}
+.form-section h1 {
+  margin-bottom: 10px;
+}
+.form-section input[type=text],
+.form-section input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.form-section input[type=text]:focus,
+.form-section input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-section hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.form-section .registerbtn {
+  background-color: #000000d9;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 2rem;
+}
+.form-section .registerbtn:hover {
+  opacity: 1;
+}
