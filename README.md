@@ -1,5 +1,5 @@
 # essentialism-ui-david-clavijo
-This repository contains the Landing page for the Essentialism app page.
+This repository contains the Landing page for the Essentialism app.
 
 ## Why it should be used
 The page describes the process used by the app to rank your tasks from most important to lest important.
